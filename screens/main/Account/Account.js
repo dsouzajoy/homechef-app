@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
-import { signOut } from '../../redux/actions'
+import { signOut } from '../../../redux/actions'
 import { useDispatch } from 'react-redux'
 const Account = () => {
     const dispatch = useDispatch()
